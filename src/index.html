@@ -2,8 +2,13 @@
 <html>
   <head>
     <!-- <title>"That Snowshoe Tho!!!"</title> -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">  
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!-- Main Css -->
+      <link rel="stylesheet" type="text/css" href="css/main.css"> 
+    <!-- Google Fonts Link -->
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome Link -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   </head>
   <body>
      <!-- Nav goes here -->
@@ -22,17 +27,17 @@
     <!-- main section -->
       <section class="main-section">
         <!-- Facebook feed article -->
-          <article>
+         <!--  <article>
             <h1>Facebook Feed</h1>
             <p>Some Feedy stuff over here!</p>
-          </article>
+          </article> -->
         <!-- Updates article -->
-          <article>
+         <!--  <article>
             <h1>Updates</h1>
             <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in h</p>
-          </article>
+          </article> -->
         <!-- Standings Article -->
-          <article>
+          <!-- <article>
             <h1>Standings</h1>
             <table>
               <thead>
@@ -64,17 +69,23 @@
                 </tr>
               </tbody>
             </table>
-          </article>
+          </article> -->
         <!-- Schedule article -->
-          <article class="article-with-images">
-            <h1>Schedule</h1>
-            <ul>
-              <!-- Single schedule item to be looped -->
+          <article class="schedule-article">
+
+            <h1><i class="fa fa-calendar-check-o"></i>  Schedule</h1>
+            <!-- single item to be looped -->
+            <ul class="schedule-list">
                 <li>
-                  <date>february 7,2015</date>
-                  <h2>results</h2>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
                   <!-- Yearly results list -->
-                    <ul>
+                    <ul class="past-years">
                       <li><a href="#" target="_new">2009</a></li>
                       <li><a href="#" target="_new">2010</a></li>
                       <li><a href="#" target="_new">2011</a></li>
@@ -83,42 +94,172 @@
                       <li><a href="#" target="_new">2014</a></li>
                       <li><a href="#" target="_new">2015</a></li>
                     </ul>
-                  <p>exampletown, state</p>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
                 </li>
             </ul>
-            <h3>SERIES SCORING (2015)</h3>
-            <p>Your best four (4) performances will be scored.  No minimum number of races required to receive a series standing.  Team scores will consist of the cumulative Top 5 overall scores for each race in the series.  There is no minimum number of athletes required for teams to receive an event score.
-            </p>
-            <p><img src="images/logos/DionSnowshoesLogo.jpg">A special thanks to DION snowshoes!  They will be providing a limited number of 'rentals' for each race in our series.  Please contact each individual race director to reserve a pair.</p>
+            <!-- end of item -->
+               <!-- single item to be looped -->
+            <ul class="schedule-list">
+                <li>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
+                  <!-- Yearly results list -->
+                    <ul class="past-years">
+                      <li><a href="#" target="_new">2009</a></li>
+                      <li><a href="#" target="_new">2010</a></li>
+                      <li><a href="#" target="_new">2011</a></li>
+                      <li><a href="#" target="_new">2012</a></li>
+                      <li><a href="#" target="_new">2013</a></li>
+                      <li><a href="#" target="_new">2014</a></li>
+                      <li><a href="#" target="_new">2015</a></li>
+                    </ul>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
+                </li>
+            </ul>
+            <!-- end of item -->
+               <!-- single item to be looped -->
+            <ul class="schedule-list">
+                <li>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
+                  <!-- Yearly results list -->
+                    <ul class="past-years">
+                      <li><a href="#" target="_new">2009</a></li>
+                      <li><a href="#" target="_new">2010</a></li>
+                      <li><a href="#" target="_new">2011</a></li>
+                      <li><a href="#" target="_new">2012</a></li>
+                      <li><a href="#" target="_new">2013</a></li>
+                      <li><a href="#" target="_new">2014</a></li>
+                      <li><a href="#" target="_new">2015</a></li>
+                    </ul>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
+                </li>
+            </ul>
+            <!-- end of item -->
+               <!-- single item to be looped -->
+            <ul class="schedule-list">
+                <li>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
+                  <!-- Yearly results list -->
+                    <ul class="past-years">
+                      <li><a href="#" target="_new">2009</a></li>
+                      <li><a href="#" target="_new">2010</a></li>
+                      <li><a href="#" target="_new">2011</a></li>
+                      <li><a href="#" target="_new">2012</a></li>
+                      <li><a href="#" target="_new">2013</a></li>
+                      <li><a href="#" target="_new">2014</a></li>
+                      <li><a href="#" target="_new">2015</a></li>
+                    </ul>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
+                </li>
+            </ul>
+            <!-- end of item -->
+               <!-- single item to be looped -->
+            <ul class="schedule-list">
+                <li>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
+                  <!-- Yearly results list -->
+                    <ul class="past-years">
+                      <li><a href="#" target="_new">2009</a></li>
+                      <li><a href="#" target="_new">2010</a></li>
+                      <li><a href="#" target="_new">2011</a></li>
+                      <li><a href="#" target="_new">2012</a></li>
+                      <li><a href="#" target="_new">2013</a></li>
+                      <li><a href="#" target="_new">2014</a></li>
+                      <li><a href="#" target="_new">2015</a></li>
+                    </ul>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
+                </li>
+            </ul>
+            <!-- end of item -->
+               <!-- single item to be looped -->
+            <ul class="schedule-list">
+                <li>
+                  <h3><date>february 7,2015</date></h3>
+                </li>
+                <li>
+                  <h3>moose mountain runaround &nbsp<a href="#"><i class="fa fa-external-link"></i></a></h3><p>brookfield, nh</p>
+                </li>
+                <li>
+                  <h3>results</h3>
+                  <!-- Yearly results list -->
+                    <ul class="past-years">
+                      <li><a href="#" target="_new">2009</a></li>
+                      <li><a href="#" target="_new">2010</a></li>
+                      <li><a href="#" target="_new">2011</a></li>
+                      <li><a href="#" target="_new">2012</a></li>
+                      <li><a href="#" target="_new">2013</a></li>
+                      <li><a href="#" target="_new">2014</a></li>
+                      <li><a href="#" target="_new">2015</a></li>
+                    </ul>
+                </li>  
+                <li>
+                  <img src="images/logos/schd-icon.png">
+                </li>
+            </ul>
+            <!-- end of item -->
+
           </article>
         <!-- Image slider -->
-          <article>images???</article>
+          <!-- <article>images???</article> -->
         <!-- Dion Shoe Givaway -->
-          <article class="article-with-images"> 
+          <!-- <article class="article-with-images"> 
             <h1>Dion Shoe Giveaway!!!</h1>
             <img src="images/logos/DionSnowshoesLogo.jpg">
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
-          </article>
+          </article> -->
         <!-- Champion Article where we display male and female champions, photo and bio -->
-          <article>
+       <!--    <article>
           <h1>Champs!!!</h1>
           <ul class="champions-list">
-            <!-- Men's Champion -->
+            Men's Champion
               <li>
                 <h2>Mens Champ</h2>
                 <img src="images/event-pics/event_12.jpg">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
-              </li>
-            <!-- Woman's Champion -->
+              </li> -->
+            <!-- Woman's Champion
               <li>
                 <h2>Womens Champ</h2>
                 <img src="images/event-pics/event_13.jpg">
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
               </li> 
           </ul>
-          </article>
+          </article> -->
         <!-- Snowshoeing article snowshoeing primer -->
-          <article class="article-with-images">
+<!--           <article class="article-with-images">
             <h1>This is how we snowshoe 101</h1>
             <img src="images/product/dion-snowshoe.jpg">
             <h2>getting started</h2>
@@ -129,9 +270,9 @@
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
             <h3>clothing</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore </p>
-          </article>
+          </article> -->
         <!-- Footer Company name and copyright info -->
-          <footer>Granite State Snowshoe Series.  Copyright &copy; 2015</footer>
+          <!-- <footer>Granite State Snowshoe Series.  Copyright &copy; 2015</footer> -->
       </section>
   </body>
 </html>
