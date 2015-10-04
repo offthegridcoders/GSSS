@@ -13,11 +13,17 @@
     text-align: center;
   }
 
-  .chart-container {
+  .graph-container {
     display: inline-block;
     margin: 20px;
     vertical-align: top;
     width: 300px;
+  }
+  .chart-container {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    width: 35%;
 
     table {
       font-size: 14px;

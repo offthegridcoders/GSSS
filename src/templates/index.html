@@ -2,22 +2,8 @@
 <html>
     @@include('../src/partials/_head.html', {"title": "Granite State Snowshoe Series"})
   <body>
-    <!-- MAIN NAV BAR -->
-      <nav class="main-nav clearfix">
-        <img src="assets/logos/logo.jpg" class="main-logo">
-        <ul>
-          <li><a href="#schedule">schedule</a></li>
-          <li><a href="#standings">standings</a></li>
-          <li><a href="#photos">photos</a></li>
-        </ul>
-      </nav>
-    <!-- HEADER -->
-      <header class="main-header">
-        <div class="presented-by">
-          <p>presented by</p>
-          <img src="assets/logos/dion-logo.png">
-        </div>
-      </header>
+    @@include('../src/partials/_navbar.html')
+    @@include('../src/partials/_header.html')
       <section>
         @@include('../src/partials/_schedule.html')
         @@include('../src/partials/_standings.html')
