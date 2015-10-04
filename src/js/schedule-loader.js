@@ -10,7 +10,12 @@
     var ul = $('<ul/>');
     var li = $('<li/>');
     var a = $('<a/>').addClass('result-link');
+    var h3 = $('<h3/>');
+
     var list = ul.clone();
+
+    if (arr.length > 0) list.append(h3.clone().text('Results'));
+
     $.each( arr, function( key, val ) {
       list.append(li.clone().html(a.clone().attr('href', val.url).text(val.year)));
     });
@@ -21,7 +26,6 @@
   function buildSchedule(events) {
     var tr = $('<tr/>');
     var h2 = $('<h2/>');
-    var h3 = $('<h3/>');
     var p = $('<p/>');
     var a = $('<a/>');
     var img = $('<img/>');
@@ -34,7 +38,7 @@
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
       var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', '#').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
-      var results = resultCell.clone().html(h3.clone().text('Results').append(buildResultsList(event.results)));
+      var results = resultCell.clone().html(buildResultsList(event.results));
       var logos = logosCell.clone();
 
       if (event.ussaQualifier) logos.append(img.clone().attr('src', 'assets/logos/usssa.png'));

@@ -1,6 +1,10 @@
 .champions-article {
   font-size: 0;
 
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+
   p,
   ul {
     font-size: 14px;
@@ -8,6 +12,10 @@
 
   ul {
     margin-top: 20px;
+
+    @media screen and (max-width: 500px) {
+      margin-bottom: 15px;
+    }
   }
 
   li {
@@ -21,6 +29,10 @@
     padding: 20px;
     vertical-align: top;
     width: 50%;
+
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
   }
 
   .runner-name {
@@ -42,7 +54,7 @@
   }
 
   .runner-image {
-    background-position: 50%;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     float: left;
@@ -50,5 +62,10 @@
     margin-bottom: 20px;
     margin-right: 20px;
     width: 200px;
+
+    @media screen and (max-width: 500px) {
+      float: none;
+      width: 100%;
+    }
   }
 }
