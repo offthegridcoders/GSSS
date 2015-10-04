@@ -1,0 +1,85 @@
+.schedule-table {
+  width: 100%;
+
+  tr {
+    &:nth-child(odd) {
+      background-color: #f2f5fa;
+      border-top: solid 1px $light-gray;
+    }
+  }
+
+  td {
+    padding: 15px;
+    vertical-align: top;
+  }
+
+  .date-cell {
+    text-transform: capitalize;
+
+    a {
+      display: block;
+      font-size: 12px;
+      margin-top: 5px;
+      text-decoration: none;
+    }
+  }
+
+  .event-cell {
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0;
+      text-transform: capitalize;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 100;
+      margin: 0;
+      text-transform: capitalize;
+    }
+  }
+
+  .result-cell {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0;
+      text-transform: capitalize;
+    }
+
+    li {
+      display: inline-block;
+      font-size: 14px;
+    }
+  }
+
+  .result-link {
+    color: $link-blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .logos-cell {
+    img {
+      width: 40px;
+    }
+  }
+}

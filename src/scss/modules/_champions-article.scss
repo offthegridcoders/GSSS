@@ -1,0 +1,54 @@
+.champions-article {
+  font-size: 0;
+
+  p,
+  ul {
+    font-size: 14px;
+  }
+
+  ul {
+    margin-top: 20px;
+  }
+
+  li {
+    &:before {
+      content: '* ';
+    }
+  }
+
+  .runner-container {
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .runner-name {
+    font-size: 18px;
+  }
+
+  .description {
+    clear: both;
+    float: left;
+    font-weight: 100;
+  }
+
+  .highlights {
+    font-weight: 600;
+
+    &:before {
+      content: '';
+    }
+  }
+
+  .runner-image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 200px;
+  }
+}

@@ -1,0 +1,40 @@
+.standings-article {
+  font-size: 0;
+
+  h2 {
+    border-bottom: solid 1px $gray;
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px 0 5px;
+    padding-bottom: 3px;
+  }
+
+  .charts-container {
+    text-align: center;
+  }
+
+  .chart-container {
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+    width: 300px;
+
+    table {
+      font-size: 14px;
+      text-align: left;
+      width: 100%;
+
+      tr:nth-child(odd) {
+        background-color: #f2f5fa;
+      }
+
+      td {
+        padding: 5px;
+      }
+
+      td:nth-child(2) {
+        text-align: right;
+      }
+    }
+  }
+}

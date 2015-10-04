@@ -1,0 +1,25 @@
+.main-header {
+  background-image: url('../assets/header/header-bg.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  .presented-by {
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+
+    p {
+      text-transform: capitalize;
+    }
+
+    img {
+      width: 150px;
+    }
+  }
+}

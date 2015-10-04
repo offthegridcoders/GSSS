@@ -1,0 +1,41 @@
+.racing-article {
+  header {
+    a {
+      font-size: 16px;
+      text-decoration: none;
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+  }
+
+  h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+
+  figure {
+    float: right;
+    margin: 20px;
+    width: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+article {
+  padding: 40px 50px 20px;
+
+  header {
+    border-bottom: solid 1px $light-gray;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  footer {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 20px 0;
+    text-align: center;
+  }
+}
