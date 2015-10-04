@@ -1,0 +1,1 @@
+function loadCarousel(){$("#owl-demo").owlCarousel({autoPlay:3e3,items:4,lazyload:!0,itemsDesktop:[1199,3],itemsDesktopSmall:[979,3]})}
