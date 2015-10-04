@@ -121,7 +121,7 @@ gulp.task('build', ['make', 'image-compress'], function() {});
       .pipe(gulp.dest(paths.dist.js))
   });
 
-  gulp.task('move-json', function() {
+  gulp.task('move-json', ['clear'], function() {
     return gulp.src(paths.src.json)
       .pipe(gulp.dest(paths.dist.json))
   });
