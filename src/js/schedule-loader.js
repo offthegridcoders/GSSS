@@ -1,6 +1,6 @@
 // INIT SCHEDULE / GET JSON FILE
   function initSchedule() {
-    $.getJSON("js/schedule.json", function( data ) {
+    $.getJSON("js/json/schedule.json", function( data ) {
       buildSchedule(data.events);
     });
   }
@@ -19,7 +19,6 @@
 
 // BUILDS SCHEDULE TABLE ROWS
   function buildSchedule(events) {
-    var scheduleContainer = $('#scheduleBody');
     var tr = $('<tr/>');
     var h2 = $('<h2/>');
     var h3 = $('<h3/>');
@@ -37,7 +36,7 @@
       var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', '#').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
       var results = resultCell.clone().html(h3.clone().text('Results').append(buildResultsList(event.results)));
       var logos = logosCell.clone();
-      
+
       if (event.ussaQualifier) logos.append(img.clone().attr('src', 'assets/logos/usssa.png'));
       if (event.nsf) logos.append(img.clone().attr('src', 'assets/logos/nsf-logo.png'));
 

@@ -1,4 +1,14 @@
 // GLOBALS
+
+  var scheduleContainer = $('#scheduleBody'); // SCHEDULE CONTAINER
+  
+  var mastersMenTable = $('#mastersMenTable'); // RESULTS TABLES
+  var mastersWomenTable = $('#mastersWomenTable'); // RESULTS TABLES
+  var seniorsMenTable = $('#seniorsMenTable'); // RESULTS TABLES
+  var seniorsWomenTable = $('#seniorsWomenTable'); // RESULTS TABLES
+  var veteransMenTable = $('#veteransMenTable'); // RESULTS TABLES
+  var veteransWomenTable = $('#veteransWomenTable'); // RESULTS TABLES
+
   var CHART_OPTIONS = {
     //Boolean - Whether the scale should start at zero, or an order of magnitude down from the lowest value
     scaleBeginAtZero : false,
@@ -38,6 +48,7 @@
   function init() {
     new WOW().init();
     initSchedule();
+    initStandings();
     loadCarousel();
     buildCharts();
   };
