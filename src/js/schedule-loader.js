@@ -37,7 +37,7 @@
     $.each( events, function( key, event ) {
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
-      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', '#').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
+      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
       var results = resultCell.clone().html(buildResultsList(event.results));
       var logos = logosCell.clone();
 
