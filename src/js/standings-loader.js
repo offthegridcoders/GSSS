@@ -22,6 +22,9 @@
 
 // BUILDS STANDINGS LIST
   function buildStandings(standings) {
+    teamsTable.append(tableBuilder(standings.teams));
+    openMenTable.append(tableBuilder(standings.openMen));
+    openWomenTable.append(tableBuilder(standings.openWomen));
     mastersMenTable.append(tableBuilder(standings.mastersMen));
     mastersWomenTable.append(tableBuilder(standings.mastersWomen));
     seniorsMenTable.append(tableBuilder(standings.seniorsMen));
