@@ -1,21 +1,47 @@
 .main-nav {
-  background-color: #000;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.7);
   left: 0;
-  position: absolute;
+  position: fixed;
   text-align: center;
   top: 0;
   width: 100%;
   z-index: 999;
+  height: 71px;
 
-  @media screen and (max-width: 500px) {
-    background-color: rgba(0, 0, 0, .6);
+  @media screen and (max-width: 800px) {
+    height: 100px;
+    position: absolute;
+  }
+
+  .main-logo {
+    height: 60px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+
+    @media screen and (max-width: 1000px) {
+      height: 40px;
+      margin-top: 11px;
+    }
+
+    @media screen and (max-width: 800px) {
+      display: inline-block;
+      margin: 5px auto 0;
+      position: static;
+    }
   }
 
   ul {
     list-style: none;
     margin: 0 auto;
     padding: 0;
+    margin-top: 8px;
+
+
+    @media screen and (max-width: 800px) {
+      margin: 0 auto;
+    }
 
     li {
       display: inline-block;
@@ -34,7 +60,8 @@
 
 
   a {
-    color: #fff;
+    color: #302F74;
+    font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
 
