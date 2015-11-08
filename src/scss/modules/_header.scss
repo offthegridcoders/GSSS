@@ -1,12 +1,13 @@
 .main-header {
-  background-image: url('../assets/header/header-bg.png');
-  background-position: 50%;
+  background-image: url('../assets/header/header-bg.jpg');
+  background-position: 50% 89%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 100%;
   position: relative;
   width: 100%;
   z-index: 1;
+
 
   .main-logo {
     background-color: rgba(255, 255, 255, 0.68);
@@ -15,7 +16,7 @@
     top: 50%;
     margin-top: -80px;
     text-align: center;
-    
+
     img {
       max-width: 100%;
       width: 400px;
