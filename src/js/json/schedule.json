@@ -2,21 +2,6 @@
   "events":
     [
       {
-        "date": "January 23, 2016",
-        "title": "Moose Mountain Runaround",
-        "city": "Brookfield",
-        "state": "NH",
-        "website": "http://trailrnr.wix.com/moose-mountain-ss",
-        "results" : [
-          {
-            "year": "2015",
-            "url": "http://www.coolrunning.com/results/15/nh/Feb8_MooseM_set1.shtml"
-          }
-        ],
-        "ussaQualifier": false,
-        "nsf": false
-      },
-      {
         "date": "January 16, 2016",
         "title": "Whitaker Woods",
         "city": "North Conway",
@@ -42,6 +27,21 @@
           {
             "year": "2015",
             "url": "http://www.coolrunning.com/results/15/nh/Jan17_Whitak_set1.shtml"
+          }
+        ],
+        "ussaQualifier": false,
+        "nsf": false
+      },
+      {
+        "date": "January 23, 2016",
+        "title": "Moose Mountain Runaround",
+        "city": "Brookfield",
+        "state": "NH",
+        "website": "http://trailrnr.wix.com/moose-mountain-ss",
+        "results" : [
+          {
+            "year": "2015",
+            "url": "http://www.coolrunning.com/results/15/nh/Feb8_MooseM_set1.shtml"
           }
         ],
         "ussaQualifier": false,
@@ -181,7 +181,7 @@
       },
       {
         "date": "March 5, 2016",
-        "title": "NH Snowshow Championship",
+        "title": "Granite State Snowshow Championship",
         "city": "Moultonborough",
         "state": "NH",
         "website": "http://www.acidoticracing.com/nh-snowshoe-championship/",
