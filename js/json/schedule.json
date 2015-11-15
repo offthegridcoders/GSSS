@@ -212,7 +212,7 @@
           }
         ],
         "ussaQualifier": false,
-        "nsf": true
+        "nsf": false
       }
     ]
 }
