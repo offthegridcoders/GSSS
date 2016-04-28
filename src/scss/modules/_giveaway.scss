@@ -1,9 +1,19 @@
 .giveaway-article {
+  @media screen and (max-width: 500px) {
+    text-align: center;
+  }
+
   img {
     float: left;
     margin-bottom: 20px;
     margin-right: 20px;
     width: 200px;
+
+    @media screen and (max-width: 500px) {
+      display: block;
+      float: none;
+      margin: 0 auto 20px;
+    }
   }
 
   p {

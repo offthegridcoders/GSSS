@@ -20,12 +20,14 @@ var paths = {
     vendor: 'src/scss/vendor/*.css',
     css: 'src/css/*.css',
     js: 'src/js/**/*.js',
+    json: 'src/js/**/*.json',
     templates: 'src/templates/**/*.html',
     partials: 'src/partials/**/*.html'
   },
   dist: {
     base: './dist',
     js: './dist/js',
+    json: './dist/js',
     assets: './dist/assets',
     html: './dist/**/*.html',
     css: './dist/css/'
@@ -38,6 +40,7 @@ gulp.task('default', ['sass', 'make'], function() {
       paths.src.assets,
       paths.src.vendor,
       paths.src.js,
+      paths.src.json,
       paths.src.templates,
       paths.src.partials
     ], ['default']);
@@ -80,7 +83,8 @@ gulp.task('build', ['make', 'image-compress'], function() {});
     'sass',
     'useref',
     'img-copy',
-    'compress'], function() {
+    'compress',
+    'move-json'], function() {
     return gulp.src(paths.dist.html)
     .pipe(fileinclude())
     .pipe(gulp.dest(paths.dist.base));
@@ -109,12 +113,17 @@ gulp.task('build', ['make', 'image-compress'], function() {});
   gulp.task('img-copy', ['clear'], function() {
     return gulp.src(paths.src.assets)
     .pipe(gulp.dest(paths.dist.assets));
-  })
+  });
 
   gulp.task('compress', ['useref'], function() {
     return gulp.src(paths.src.js)
       .pipe(uglify())
       .pipe(gulp.dest(paths.dist.js))
+  });
+
+  gulp.task('move-json', ['clear'], function() {
+    return gulp.src(paths.src.json)
+      .pipe(gulp.dest(paths.dist.json))
   });
 
   gulp.task('image-compress', function () {
@@ -132,6 +141,7 @@ var watcher = gulp.watch([
   paths.src.assets,
   paths.src.vendor,
   paths.src.js,
+  paths.src.json,
   paths.src.templates,
   paths.src.partials
 ]);

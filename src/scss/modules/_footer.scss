@@ -1,5 +1,32 @@
 .main-footer {
   font-size: 12px;
-  padding: 100px 0;
+  padding: 20px 0 50px;
   text-align: center;
+  border-top: solid 1px $light-gray;
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+    li {
+      padding: 5px;
+      margin: 5px;
+      display: inline-block;
+    }
+  }
+
+  .fa {
+    font-size: 34px;
+  }
+
+  .fa-facebook-official {
+    border-radius: 10px;
+  }
+
+  img {
+    width: 60px;
+    margin-top: 15px;
+  }
 }
