@@ -1,7 +1,7 @@
 # Granite State Snowshoe Series
 
 ### Deploy
-sh```
+```sh
 git subtree push --prefix=dist origin gh-pages
 ```
 #### Contact
