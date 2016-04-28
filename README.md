@@ -13,7 +13,7 @@ gulp
 
 ### Building
 ```sh
-gulp build
+gulp make
 ```
 
 ### Deploy
