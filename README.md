@@ -1,9 +1,26 @@
 # Granite State Snowshoe Series
 
+### Setup
+```sh
+npm install
+[sudo] gem install scss_lint
+```
+
+### Development
+```sh
+gulp
+```
+
+### Building
+```sh
+gulp build
+```
+
 ### Deploy
 ```sh
 git subtree push --prefix=dist origin gh-pages
 ```
+
 if error non fast-forward use --force (with caution)
 ```sh
 git push origin `git subtree split --prefix dist gh-pages`:gh-pages --force
