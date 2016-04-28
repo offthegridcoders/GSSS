@@ -12,6 +12,8 @@
   var veteransMenTable = $('#veteransMenTable'); // RESULTS TABLES
   var veteransWomenTable = $('#veteransWomenTable'); // RESULTS TABLES
 
+
+
 // INITIALIZATIONS
   function init() {
     new WOW().init();

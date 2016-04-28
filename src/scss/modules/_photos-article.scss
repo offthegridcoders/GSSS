@@ -1,11 +1,11 @@
 .photos-article {
   .owl-demo .item {
     margin: 3px;
-  }
 
-  .owl-demo .item img {
-    display: block;
-    height: auto;
-    width: 100%;
+    img {
+      display: block;
+      height: auto;
+      width: 100%;
+    }
   }
 }

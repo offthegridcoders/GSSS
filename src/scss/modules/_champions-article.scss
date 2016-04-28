@@ -19,7 +19,7 @@
   }
 
   li {
-    &:before {
+    &::before {
       content: '* ';
     }
   }
