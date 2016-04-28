@@ -11,11 +11,6 @@ npm install
 gulp
 ```
 
-### Building
-```sh
-gulp make
-```
-
 ### Deploy
 ```sh
 git subtree push --prefix=dist origin gh-pages
