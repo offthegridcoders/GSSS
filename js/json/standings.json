@@ -1,200 +1,169 @@
 {
   "teams": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "SIX03 Endurance",
+      "points": "1306.28"
     },
     {
       "name": "acidotic RACING",
-      "points": "3362.57"
+      "points": "1027.30"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Comp Racing",
+      "points": "512.36"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Sweetie Pies",
+      "points": "485.03"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "CMS",
+      "points": "458.23"
     }
   ],
   "openMen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Jim Johnson",
+      "points": "300.00"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "John Carton",
+      "points": "245.49"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Sal Genovese",
+      "points": "211.42"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Colin Carroll",
+      "points": "185.58"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Brian Gallagher",
+      "points": "180.66"
     }
   ],
   "openWomen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Leslie O'Dell",
+      "points": "300.00"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Sarah Canney",
+      "points": "271.36"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Ellen Tidd",
+      "points": "236.93"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Maureen Gillespie",
+      "points": "178.44"
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "Diane Levesque",
+      "points": "166.85"
     }
   ],
   "mastersMen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ],
   "mastersWomen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ],
   "seniorsMen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ],
   "seniorsWomen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ],
   "veteransMen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ],
+  
   "veteransWomen": [
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     },
     {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
-    },
-    {
-      "name": "acidotic RACING",
-      "points": "3362.57"
+      "name": "",
+      "points": ""
     }
   ]
 }
