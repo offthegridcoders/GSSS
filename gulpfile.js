@@ -55,7 +55,7 @@ gulp.task('build', ['make', 'image-compress'], function() {});
 
   gulp.task('compile-sass', ['clear'], function() {
     return gulp.src(paths.src.scss)
-      //.pipe(scsslint())
+      .pipe(scsslint())
       .pipe(sass())
       .pipe(gulp.dest(paths.dist.css));
   });

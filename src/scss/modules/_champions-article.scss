@@ -48,7 +48,7 @@
   .highlights {
     font-weight: 600;
 
-    &:before {
+    &::before {
       content: '';
     }
   }

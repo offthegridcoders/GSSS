@@ -33,12 +33,13 @@
       width: 100%;
     }
   }
+
   .chart-container {
     display: inline-block;
     margin: 20px;
     vertical-align: top;
     width: 35%;
-    
+
     @media screen and (max-width: 700px) {
       margin: 0 9%;
       width: 80%;
@@ -48,23 +49,23 @@
       margin: 0;
       width: 100%;
     }
+  }
 
-    table {
-      font-size: 14px;
-      text-align: left;
-      width: 100%;
+  .standingstable {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
 
-      tr:nth-child(odd) {
-        background-color: #f2f5fa;
-      }
+    tr:nth-child(odd) {
+      background-color: $standing-tr;
+    }
 
-      td {
-        padding: 5px;
-      }
+    td {
+      padding: 5px;
+    }
 
-      td:nth-child(2) {
-        text-align: right;
-      }
+    td:nth-child(2) {
+      text-align: right;
     }
   }
 }

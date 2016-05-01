@@ -1,19 +1,19 @@
 .main-footer {
+  border-top: solid 1px $light-gray;
   font-size: 12px;
   padding: 20px 0 50px;
   text-align: center;
-  border-top: solid 1px $light-gray;
-  
+
   ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     text-align: center;
 
     li {
-      padding: 5px;
-      margin: 5px;
       display: inline-block;
+      margin: 5px;
+      padding: 5px;
     }
   }
 
@@ -26,7 +26,7 @@
   }
 
   img {
-    width: 60px;
     margin-top: 15px;
+    width: 60px;
   }
 }

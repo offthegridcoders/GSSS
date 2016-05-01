@@ -8,7 +8,7 @@
 // BUILDS AND RETURNS RESULTS LIST
   function buildResultsList(arr) {
     var ul = $('<ul/>');
-    var li = $('<li/>');
+    var li = $('<li class=result-cell-li />');
     var a = $('<a/>').addClass('result-link');
     var h3 = $('<h3/>');
 

@@ -13,12 +13,12 @@
   }
 
   .main-logo {
-    background-color: rgba(255, 255, 255, 0.68);
-    position: absolute;
-    width: 100%;
-    top: 50%;
+    background-color: $header;
     margin-top: -80px;
+    position: absolute;
     text-align: center;
+    top: 50%;
+    width: 100%;
 
     img {
       max-width: 100%;

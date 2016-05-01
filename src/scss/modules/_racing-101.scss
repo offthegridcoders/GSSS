@@ -1,4 +1,5 @@
 .racing-article {
+
   @media screen and (max-width: 500px) {
     text-align: center;
   }
@@ -7,6 +8,7 @@
     a {
       font-size: 16px;
       text-decoration: none;
+
       @media screen and (max-width: 500px) {
         display: block;
       }

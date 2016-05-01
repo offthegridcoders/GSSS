@@ -1,13 +1,13 @@
 .main-nav {
-  background-color: #fff;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: $mainnav-bg;
+  background-color: $mainnav;
+  height: 71px;
   left: 0;
   position: fixed;
   text-align: center;
   top: 0;
   width: 100%;
   z-index: 999;
-  height: 71px;
 
   @media screen and (max-width: 800px) {
     height: 100px;
@@ -35,9 +35,8 @@
   ul {
     list-style: none;
     margin: 0 auto;
-    padding: 0;
     margin-top: 8px;
-
+    padding: 0;
 
     @media screen and (max-width: 800px) {
       margin: 0 auto;
@@ -60,7 +59,7 @@
 
 
   a {
-    color: #302F74;
+    color: $mainnav-a;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
@@ -76,13 +75,13 @@
 }
 
 .mobile-main-logo {
+  background-color: $mainnav;
   display: none;
-  background-color: rgba(255, 255, 255, 0.7);
+  left: 0;
   position: fixed;
   text-align: center;
-  width: 100%;
   top: 0;
-  left: 0;
+  width: 100%;
 
   img {
     width: 200px;
