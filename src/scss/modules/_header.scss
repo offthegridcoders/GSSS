@@ -36,6 +36,14 @@
       text-transform: capitalize;
     }
 
+    .courtesy-by {
+      width: 100px;
+
+      @media screen and (max-width: 500px) {
+        width: 70px;
+      }
+    }
+
     .pres-by {
       width: 150px;
 
