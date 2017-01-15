@@ -17,7 +17,7 @@
     if (arr.length > 0) list.append(h3.clone().text('Results'));
 
     $.each( arr, function( key, val ) {
-      list.append(li.clone().html(a.clone().attr('href', val.url).text(val.year)));
+      list.append(li.clone().html(a.clone().attr('href', val.url).attr('target', '_blank').text(val.year)));
     });
     return list;
   };
