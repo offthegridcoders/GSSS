@@ -1,169 +1,284 @@
 {
   "teams": [
     {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    }
+    		"name": "SIX03",
+    		"points": "918.76"
+    	}, {
+    		"name": "acidotic Racing",
+    		"points": "845.21"
+    	}, {
+    		"name": "Sweetie Pies",
+    		"points": "673.41"
+    	}, {
+    		"name": "CMS",
+    		"points": "598.36"
+    	}, {
+    		"name": "WRT",
+    		"points": "348.66"
+    	}, {
+    		"name": "FFRC",
+    		"points": "213.26"
+    	}, {
+    		"name": "WMM",
+    		"points": "181.06"
+    	}, {
+    		"name": "Trifury",
+    		"points": "170.84"
+    	}, {
+    		"name": "LRTC",
+    		"points": "168.52"
+    	}, {
+    		"name": "Comprehensive Racing",
+    		"points": "132.48"
+    	}, {
+    		"name": "UVRC",
+    		"points": "119.63"
+    	}, {
+    		"name": "WCRC",
+    		"points": "118.69"
+    	}, {
+    		"name": "Millenium Running",
+    		"points": "94.29"
+    	}, {
+    		"name": "findmytrail.org",
+    		"points": "87.26"
+    	}, {
+    		"name": "Flynn Snowshoeing",
+    		"points": "86.10"
+    	}, {
+    		"name": "The Boys TC",
+    		"points": "84.00"
+    	}, {
+    		"name": "Sign Project",
+    		"points": "78.36"
+    	}, {
+    		"name": "HFC Striders",
+    		"points": "77.76"
+    	}, {
+    		"name": "airspan",
+    		"points": "76.19"
+    	}, {
+    		"name": "NE Multi Sport",
+    		"points": "72.68"
+    	}, {
+    		"name": "Borderline Running Club",
+    		"points": "66.10"
+    	}, {
+    		"name": "Dead Horse Beach",
+    		"points": "56.16"
+    	}, {
+    		"name": "RR ",
+    		"points": "53.42"
+    	}, {
+    		"name": "Trail Monsters",
+    		"points": "43.80"
+	}
   ],
   "openMen": [
     {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
-    },
-    {
-      "name": "",
-      "points": ""
+      "name": "Brandon Newbould",
+          "points": "189.00"
+        },
+        {
+          "name": "Ed Sheldon",
+          "points": "180.87"
+        },
+        {
+          "name": "Phil Erwin",
+          "points": "175.48"
+        },
+        {
+          "name": "Jeff Litchfield",
+          "points": "169.85"
+        },
+        {
+          "name": "Jonathan Miller",
+      "points": "166.27"
     }
   ],
   "openWomen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Leslie O'Dell",
+      "points": "200.00"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Sarah Canney",
+      "points": "187.40"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Maureen Gillespie",
+      "points": "177.01"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Holly Blais",
+      "points": "176.77"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Adele Fenwick",
+      "points": "169.05"
     }
   ],
   "mastersMen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Phil Erwin",
+      "points": "175.48"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Jonathan Miller",
+      "points": "166.27"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Tony Bargado",
+      "points": "158.43"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Matt Wolfe",
+      "points": "152.79"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Chris Dunn",
+      "points": "150.27"
     }
   ],
   "mastersWomen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Leslie O'Dell",
+      "points": "200.00"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Molly McHugh",
+      "points": "135.26"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Heidi Dyer",
+      "points": "133.42"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Kim Bison",
+      "points": "120.21"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Camie Poplawski",
+      "points": "116.38"
     }
   ],
   "seniorsMen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Ed Sheldon",
+      "points": "180.87"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Jeff Litchfield",
+      "points": "169.85"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Peter Keeney",
+      "points": "159.35"
+    },
+    {
+      "name": "James Downey",
+      "points": "146.81"
+    },
+    {
+      "name": "Steve Houde",
+      "points": "146.04"
     }
   ],
   "seniorsWomen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Sue Williamson",
+      "points": "136.75"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Deborah Towle",
+      "points": "135.01"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Sally Gallagher",
+      "points": "130.98"
+    },
+    {
+      "name": "Maureen Nix",
+      "points": "100.36"
+    },
+    {
+      "name": "Nancy Brome",
+      "points": "66.18"
     }
   ],
   "veteransMen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Paul Bazanchuck",
+      "points": "162.71"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Walter Fortier",
+      "points": "145.08"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Tom Walton",
+      "points": "142.64"
+    },
+    {
+      "name": "Paul Funch",
+      "points": "140.24"
+    },
+    {
+      "name": "Gene Fahey",
+      "points": "119.63"
     }
   ],
   
   "veteransWomen": [
     {
-      "name": "",
-      "points": ""
+      "name": "Kim Cole",
+      "points": "134.22"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Vicki McCloskey",
+      "points": "133.24"
     },
     {
-      "name": "",
-      "points": ""
+      "name": "Sinthy Kounlasa",
+      "points": "68.96"
+    },
+    {
+      "name": "Jo Barrett",
+      "points": "68.18"
+    },
+    {
+      "name": "Bonnie Hallinan",
+      "points": "56.16"
     }
+  ]
+  ,
+    "superVeteransMen": [
+      {
+        "name": "Gary Reuter",
+        "points": "114.14"
+      },
+      {
+        "name": "",
+        "points": ""
+      },
+      {
+        "name": "",
+        "points": ""
+      }
+    ],
+    
+    "superVeteransWomen": [
+      {
+        "name": "",
+        "points": ""
+      },
+      {
+        "name": "",
+        "points": ""
+      },
+      {
+        "name": "",
+        "points": ""
+      }
   ]
 }

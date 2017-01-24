@@ -31,4 +31,6 @@
     seniorsWomenTable.append(tableBuilder(standings.seniorsWomen));
     veteransMenTable.append(tableBuilder(standings.veteransMen));
     veteransWomenTable.append(tableBuilder(standings.veteransWomen));
+    superVeteransMenTable.append(tableBuilder(standings.superVeteransMen));
+    superVeteransWomenTable.append(tableBuilder(standings.superVeteransWomen));
   };

@@ -11,7 +11,8 @@
   var seniorsWomenTable = $('#seniorsWomenTable'); // RESULTS TABLES
   var veteransMenTable = $('#veteransMenTable'); // RESULTS TABLES
   var veteransWomenTable = $('#veteransWomenTable'); // RESULTS TABLES
-
+  var superVeteransMenTable = $('#superVeteransMenTable'); // RESULTS TABLES
+  var superVeteransWomenTable = $('#superVeteransWomenTable'); // RESULTS TABLES
 
 
 // INITIALIZATIONS
