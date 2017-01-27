@@ -38,13 +38,12 @@
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
 
-      if (event.title.indexOf("Beaver Brook") > -1) {
-	  		  eventCell.addClass('cancelled-cell');
+      if (event.date == "January 29, 2017") {
+	  	var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').addClass('cancelled-cell').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
 	  }
-
-      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
-
-
+	  else {
+      	var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
+	  }
 
       var results = resultCell.clone().html(buildResultsList(event.results));
       var logos = logosCell.clone();
