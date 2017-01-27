@@ -82,6 +82,49 @@
     }
   }
 
+ .event-cell {
+    @media screen and (max-width: 600px) {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 400px) {
+      padding: 10px 0 0;
+      text-align: center;
+      width: 100%;
+    }
+
+    a {
+      color: $schedule-a;
+      text-decoration: none;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0;
+      text-transform: capitalize;
+
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 400px) {
+        font-size: 18px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 100;
+      margin: 0;
+      text-transform: capitalize;
+
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+      }
+    }
+  }
+
   .result-cell {
     @media screen and (max-width: 600px) {
       width: 30%;
@@ -108,7 +151,7 @@
   }
 
   .cancelled-cell {
-    font-color: red;   
+    color: red;   
   }
 
   .result-cell-li {
