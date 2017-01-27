@@ -1,18 +1,250 @@
 <!DOCTYPE html>
 <html>
-    @@include('../src/partials/_head.html', {"title": "Granite State Snowshoe Series"})
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Granite State Snowshoe Series</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
+  <script src="js/vendor/wow.min.js" type="text/javascript"></script>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
   <body>
-    @@include('../src/partials/_navbar.html')
-    @@include('../src/partials/_header.html')
+    <!-- MAIN NAV BAR -->
+  <nav class="main-nav clearfix">
+    <img src="assets/logos/logo.png" class="main-logo">
+    <ul>
+      <li><a href="#schedule" class="anchorLink">schedule</a></li>
+      <li><a href="#standings" class="anchorLink">standings</a></li>
+      <li><a href="#photos" class="anchorLink">photos</a></li>
+    </ul>
+  </nav>
+
+  <div class="mobile-main-logo"><img src="assets/logos/logo.png"></div>
+
+    <!-- HEADER -->
+  <header class="main-header">
+    <div class="presented-by">
+      <p>presented by</p>
+      <img class="pres-by" src="assets/logos/dion-logo.png">
+      <p>photo courtesy of</p>
+      <img class="courtesy-by" src="http://www.joeviger.com/photos/i-ZhhNTrh/0/O/i-ZhhNTrh.jpg">
+    </div>
+  </header>
+
       <section>
-        @@include('../src/partials/_schedule.html')
-        @@include('../src/partials/_standings.html')
-        @@include('../src/partials/_photos.html')
-        @@include('../src/partials/_champions.html')
-        @@include('../src/partials/_racing-101.html')
-        @@include('../src/partials/_giveaway.html')
+        <!-- SCHEDULE SECTION -->
+  <article class="schedule-article" id="schedule">
+    <header><i class="fa fa-calendar-check-o"></i> 2017 Schedule</header>
+    <table class="schedule-table">
+      <tbody id="scheduleBody">
+        <!-- BUILT DYNAMICALLY VIA JSON -->
+      </tbody>
+    </table>
+  </article>
+
+        <!-- STANDINGS SECTION -->
+  <article class="standings-article" id="standings">
+    <header><i class="fa fa-bar-chart"></i> 2017 Standings</header>
+    <div class="charts-container">
+      <div class="chart-container100pct">
+        <h2>Teams</h2>
+        <table class="standingtable" id="teamsTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Open Men</h2>
+        <table class="standingtable" id="openMenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Open Women</h2>
+        <table class="standingtable" id="openWomenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Masters Men (40-49)</h2>
+        <table class="standingtable" id="mastersMenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Masters Women (40-49)</h2>
+        <table class="standingtable" id="mastersWomenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Seniors-Men (50-59)</h2>
+        <table class="standingtable" id="seniorsMenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Seniors-Women (50-59)</h2>
+        <table class="standingtable" id="seniorsWomenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Veterans-Men (60-69)</h2>
+        <table class="standingtable" id="veteransMenTable"></table>
+      </div>
+      <div class="chart-container">
+        <h2>Veterans-Women (60-69)</h2>
+        <table class="standingtable" id="veteransWomenTable"></table>
+      </div>
+
+		<div class="chart-container">
+		  <h2>Super Veterans-Men (70+)</h2>
+		  <table class="standingtable" id="superVeteransMenTable"></table>
+		</div>
+		<div class="chart-container">
+		  <h2>Super Veterans-Women (70+)</h2>
+		  <table class="standingtable" id="superVeteransWomenTable"></table>
+      </div>
+    </div>
+    <footer><b>SERIES SCORING (2017)</b> Your best four (4) performances will be scored.  No minimum number of races required to receive a series standing.  Team scores will consist of the cumulative Top 5 overall scores for each race in the series.  There is no minimum number of athletes required for teams to receive an event score.</footer>
+  </article>
+
+        <!-- PHOTOS SECTION -->
+  <article class="photos-article" id="photos">
+    <header><i class="fa fa-photo"></i> Photos</header>
+    <div id="owl-demo" class="owl-demo">
+	  <div class="item"><img src="assets/photos/001.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/002.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/003.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/004.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/005.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/006.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/007.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/008.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/009.jpg" class="owlimg" alt="Example Photo"></div>
+      <div class="item"><img src="assets/photos/010.jpg" class="owlimg" alt="Example Photo"></div>
+    </div>
+  </article>
+
+        <!-- CHAMPIONS SECTION -->
+  <article class="champions-article">
+    <header><i class="fa fa-users"></i> 2015 Champions</header>
+    <div class="runner-container clearfix">
+      <div style="background-image: url(assets/runners/runner-01.jpg)" class="runner-image"></div>
+      <h1 class="runner-name">Jim Johnson</h1>
+      <p>Hometown: Madison, NH</br>Age: 37</br>Team: CMS</br><a href="http://doublejrunning.blogspot.com/" target="_blank">DoubleJRunning</a></p>
+      <ul>
+        <li class="highlights">2015 Winter Highlights</li>
+        <li>Whitaker Woods (2nd)</li>
+        <li>Beaver Brook (1st)</li>
+        <li>Horsehill (1st)</li>
+        <li>Moose Mountain (1st)</li>
+        <li>Exeter Hullabaloo (1st)</li>
+        <li>Kingman Farm (1st)</li>
+        <li>NH/NE Championships (1st)</li>
+      </ul>
+      <p class="description">"For the past seven years of racing, I have participated in many different race series
+        across multiple disciplines from the roads to the trails to the mountains to the snow, but there's only been
+        1 that I've made a point to complete each year and that has been the Granite State Snowshoe Series.  The Granite
+        State Snowshoe Series has been there for me every year, making sure I stay motivated and excited about running
+        and racing in the winter months.  The events are always top notch quality events that are challenging and most
+        importantly fun.  There is something very special about the snowshoe racing community in New Hampshire that
+        drives me to work everything else on my running and racing schedule around the GSSS events each year."  -Jim Johnson</p>
+    </div>
+    <div class="runner-container clearfix">
+      <div style="background-image: url(assets/runners/runner-02.jpg)" class="runner-image"></div>
+      <h1 class="runner-name">Leslie O'Dell</h1>
+      <p>Hometown: Albany, NH</br>Age: 38</br>Team: CMS</p>
+      <ul>
+        <li class="highlights">2015 Winter Highlights</li>
+        <li>Whitaker Woods (1st)</li>
+        <li>Horsehill (1st)</li>
+        <li>Moose Mountain (1st)</li>
+        <li>Exeter Snowshoe Hullabaloo (1st)</li>
+        <li>'Shoe to the Clouds (1st)</li>
+        <li>NH/NE Championships (3rd)</li>
+      </ul>
+      <p class="description">"What a fantastic winter this has been for me competing in the GSSS. I am beyond
+        thrilled to have finally participated in enough of the Series to count in the scoring and win for the
+        women in a year with prime snow conditions. Snowshoe racing has really helped me get through the winter,
+        and I've looked forward to seeing all of the other races every weekend. They have all become my new family.
+        You will definitely see me again in 2016." -Leslie O'Dell</p>
+    </div>
+  </article>
+
+        <!-- RACING 101 SECTION -->
+  <article class="racing-article">
+    <header><i class="fa fa-flag-checkered"></i> Snowshoe Racing 101</header>
+    <figure>
+      <img src="assets/snowshoe.jpg" alt="Macaque in the trees">
+      <figcaption>The DION 121's are the lighest and fastest racing snowshoe on the market today.</figcaption>
+    </figure>
+    <h2>Getting started in this exciting winter sport</h2>
+    <p>Snowshoe racing is one of the fastest growing winter sports in the northeast.  Thanks to our fantastic snow and incredible trail networks this is a sport with many things to love!  The easiest thing to compare snowshoe racing to is trail racing.  The parallels are obvious...snowshoe races occur on some of the same trails we race on from April through December.  But if you think this sport is just trail racing with snow, you may be a little surprised...and very underprepared.</p>
+    <h3>Snowshoes</h3>
+    <p>Snowshoe racing isn't a gear intensive sport, but it does require thoughtful consideration of the most important element...snowshoes.  Although each manufacturer touts their patented bindings, cleats, and deck shape the single most important consideration when selecting a racing snowshoe is size.  Let's take closer look.</p>
+    <h4>Size</h4>
+    <p>The US Snowshoe Association has set the minimum surface area for racing snowshoes at 120 square inches but unless you've got a degree in engineering it's next to impossible to tell if you've got a 'legal' pair of 'shoes.  Instead, most racers choose a snowshoe based on its length.  The basic principle here is "smaller is lighter and lighter is faster".  Racing models vary from 21-25 inches and are almost always less than 3 lbs..  Any recreational 'shoe longer than 25 inches is also typically wider than racing models and becomes difficult to maintain a comfortable narrow running stride.</p>
+    <h3>Clothing</h3>
+    <p>One of the most common mistakes newcomers make is over dressing.  It stands to reason that racing in the winter months means racing in cold temperatures but running in snowshoes is a tremendous amount of work and body temps rise quickly and stay elevated throughout the race.  Most snowshoe racers dress in light layers using a synthetic hat as the perfect method of maintaining a comfortable body temperature.  Running tights are the preferred lower body layer with running socks & shoes finishing the look.  Up top, two or three light synthetic layers with at least one long-sleeve article is often used.  Depending on wind chill, sometimes a light outer shell is worn.</p>
+
+	<figure>
+	      <img src="assets/SS1.jpg" alt="Tracks in the snow">
+    </figure>
+    <h3>Footwear</h3>
+	<p>When it comes to what's on your feet, it's common to sacrifice warmth for weight.  Most racers wear a thicker warmer sock with their running shoes.  The bindings of nearly all racing snowshoes will accommodate the typical running shoe.  Boots and light hikers should be avoided.  Many racers choose to wear a pair of road or trail racing shoes.  Some even don their lightest pair of road or XC flats.  Waterproof uppers are not necessary and generally result in unnecessary weight.  As with clothing, it's fine for your feet to be a little chilly prior to the event as racing on snowshoes generates a lot of body heat very quickly.</p>
+	<p>Snowshoe racing is a lot of work so dress lightly and in layers.</p>
+	<h3>Training</h3>
+	<p>In exercise science there is a training principle known as the "SAID" Principle.  "SAID" is an acronym for specific adaptations to imposed demands.  To a snowshoe racer what this means is that you must train in  snowshoes in order to race fast in snowshoes.  But this comes with a warning...running in snowshoes is particularly stressful to the muscles, tendons, and joints and it should be added to the training schedule cautiously.  The primary training mode for snowshoe racing is road running.  Snowshoe races are typically 5-10 kms in distance.  Racers should prepare for the snowshoe racing season as they were preparing for a 10k road race.  Once there is sufficient snow cover to run the local trails in snowshoes, racers should incorporate two to three snowshoe 'workouts' each week.  Beginners will notice there is a tendency to alter their normal gate mechanics to avoid 'clanking' their snowshoes together.  Most racing snowshoe models however, are narrow enough to maintain a normal running stride.  Although running in snowshoes is pretty intuitive, it is important to remember to pick your foot straight up after you've made contact with the snow.  All beginners fall the first time they run in snowshoes because they tend to drag their tips.  It only takes one face first plant on the trail to learn
+	this valuable lesson.</p>
+	<figure>
+	      <img src="assets/SS4.jpg" alt="Crowds in the snow">
+    </figure>
+	<h3>Racing</h3>
+	<p>In order to prepare for snowshoe racing you must get out there and train in your snowshoes.
+	As the popularity of snowshoe racing has grown so has the number of local events.  On any weekend from the end of December through March there is at least one  and as many as four snowshoe races held throughout New England.  Most races are between 5-10 kms with the occasional marathon distance event.  Races are held on public trails, Nordic ski networks, and golf courses.  The race courses are often a combination of groomed and virgin snowshoe singletrack.  Races held at ski resorts often use the Nordic ski networks.  These courses are described as 'groomed' because racers enjoy the hardpacked Nordic ski trails.  Some events also define snowmobile tracks as 'groomed' snowshoe courses.  Either way, 'groomed' differs dramatically from virgin singletrack.  One of the most charming elements of snowshoe racing is singletrack.  Racing on a devilishly twisty singletrack with someone on your heels is surprisingly thrilling.  Snowshoe racing fields have between 50-125 participants.  Depending on the course, the start can be extremely important.  Make sure to scout out the first 100 meters of the course to determine when or if it narrows to singletrack.  Generally, racers align in a  single file within the first few hundred meters of the start.  Tight track can make passing difficult so seed yourself wisely at the start.  Because these races are often less than 10 kms there are no 'water stops' on the course.  If you think you may be on the course for more than an hour then it's recommended that you carry fluids.  Finally, due to the extra few lbs. of weight on your feet and the softness of the snow you can expect to run 1-3 minutes per mile slower on snowshoes than on the roads.  But ultimately, in snowshoe racing it's not how fast you run...it's how much fun you're having doing it!</p>
+
+
+  </article>
+
+        <!-- GIVEAWAY SECTION -->
+  <article class="giveaway-article clearfix">
+    <header><i class="fa fa-gift"></i> DION Snowshoe Giveaway!</header>
+    <img src="assets/logos/dion-logo.png">
+
+    <p>Thanks to our AMAZING sponsor <a href="http://www.dionsnowshoes.com/" target="_blank">DION Snowshoes</a>, we will be giving away two pair of their #1 racing snowshoes, the model 121 with secure fit binding and standard cleat, this winter! And here's how you can win a pair. First, for every race you do you'll be entered into a drawing for a pair that we'll announce at the Granite State Snowshoe Championship. Lastly, we'll give away a pair to a participant at those championships following the race. So, that's two ways for you to win a pair of these incredible snowshoes this winter!</p>
+  </article>
+
       </section>
-    @@include('../src/partials/_footer.html')
-    @@include('../src/partials/_scripts.html')
+    <!-- FOOTER -->
+  <footer class="main-footer">
+    <ul>
+      <li><a href="https://www.facebook.com/granitestatesnowshoeseries/"><i class="fa fa-facebook-official"></i></a></li>
+      <li><a href="https://twitter.com/nesnowshoe"><i class="fa fa-twitter-square"></i></a></li>
+      <li><a href="https://instagram.com/NH_snowshoe/"><i class="fa fa-instagram"></i></a></li>
+    </ul>
+    Granite State Snowshoe Series.  Copyright &copy; 2017.</br>
+    <a href="http://www.acidoticracing.com" target="_new"><img src="assets/logos/aR.png"></a></br>
+    Supported by <a href="http://www.acidoticracing.com" target="_new">acidotic RACING, LLC</a>
+  </footer>
+<!-- <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FGranite-State-Snowshoe-Series%2F144302502277258%3Fref%3Dsgm&amp;width=292&amp;connections=10&amp;stream=true&amp;header=true&amp;height=587" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:587px;" allowtransparency="true"></iframe> -->
+
+    
+<script src="js/vendor/owl.carousel.min.js"></script>
+<script src="js/inits.js" type="text/javascript"></script>
+<script src="js/load-carousel.js"></script>
+<script src="js/scroll-to-anchor.js"></script>
+<script src="js/schedule-loader.js"></script>
+<script src="js/standings-loader.js"></script>
+
   </body>
 </html>

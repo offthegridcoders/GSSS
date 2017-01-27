@@ -69,21 +69,21 @@
         font-size: 18px;
       }
     }
-    
+
     h3 {
-          color: #F00;
-          font-size: 16px;
-          font-weight: 400;
-          margin: 0;
-          text-transform: capitalize;
-    
-          @media screen and (max-width: 1000px) {
-            font-size: 14px;
-          }
-    
-          @media screen and (max-width: 400px) {
-            font-size: 18px;
-          }
+      color: $link-red;
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0;
+      text-transform: capitalize;
+
+      @media screen and (max-width: 1000px) {
+        font-size: 14px;
+      }
+
+      @media screen and (max-width: 400px) {
+        font-size: 18px;
+      }
     }
 
     p {
