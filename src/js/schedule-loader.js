@@ -37,12 +37,10 @@
     $.each( events, function( key, event ) {
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
+      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
 
-      if (event.date == "January 29, 2017") {
-	  	var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').addClass('cancelled-cell').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
-	  }
-	  else {
-      	var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
+      if (event.id == "2") {
+		  title.append("<p font='color:red;'> (CANCELLED)</p>");
 	  }
 
       var results = resultCell.clone().html(buildResultsList(event.results));
