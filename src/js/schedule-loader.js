@@ -37,7 +37,15 @@
     $.each( events, function( key, event ) {
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
+
+      if (event.title.indexOf("Beaver Brook") > -1) {
+	  		  eventCell.addClass('cancelled-cell');
+	  }
+
       var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
+
+
+
       var results = resultCell.clone().html(buildResultsList(event.results));
       var logos = logosCell.clone();
 
