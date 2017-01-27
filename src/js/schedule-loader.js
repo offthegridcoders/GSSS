@@ -26,6 +26,7 @@
   function buildSchedule(events) {
     var tr = $('<tr/>');
     var h2 = $('<h2/>');
+    var h3 = $('<h3/>');
     var p = $('<p/>');
     var a = $('<a/>');
     var img = $('<img/>');
@@ -37,11 +38,13 @@
     $.each( events, function( key, event ) {
       var eventItem = tr.clone();
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
-      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))).append(p.clone().text(event.city + ', ' + event.state));
+      var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title))));
 
       if (event.id == "2") {
-		  title.append("<p font='color:red;'> (CANCELLED)</p>");
+		  title.append(h3.clone().text("(CANCELLED)"));
 	  }
+
+	  title.append(p.clone().text(event.city + ', ' + event.state);
 
       var results = resultCell.clone().html(buildResultsList(event.results));
       var logos = logosCell.clone();
