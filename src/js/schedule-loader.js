@@ -40,8 +40,8 @@
       var date = dateCell.clone().html('<date>' + event.date + '</date>')
       var title = eventCell.clone().html(h2.clone().html(a.clone().attr('href', event.website).attr('target', '_blank').text(event.title)));
 
-     if (event.id == "2" || event.id == "3") {
-		  title.append(h3.clone().text("(CANCELLED)"));
+     if (event.status != "") {
+		  title.append(h3.clone().text(event.status));
 	  }
 
 	  title.append(p.clone().text(event.city + ', ' + event.state));

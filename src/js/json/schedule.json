@@ -29,7 +29,8 @@
 			"url": "http://www.coolrunning.com/results/17/nh/Jan14_Whitak_set1.shtml"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""
 	}, {
 		"id": "1",
 		"date": "January 21, 2017",
@@ -45,7 +46,8 @@
 			"url": "http://www.coolrunning.com/results/17/nh/Jan21_MooseM_set1.shtml"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""		
 	}, {
 		"id": "2",
 		"date": "January 29, 2017",
@@ -76,7 +78,8 @@
 			"url": "http://www.3craceproductions.com/raceresults.php?raceId=1090&type=LINKS0"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": "(CANCELLED)"
 	}, {
 		"id": "3",
 		"date": "February 5, 2017",
@@ -110,7 +113,8 @@
 			"url": "http://www.3craceproductions.com/raceresults.php?raceId=1091&type=RESULTS"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": "(CANCELLED)"
 	}, {
 		"id": "4",
 		"date": "February 11, 2017",
@@ -141,7 +145,8 @@
 			"url": "http://www.coolrunning.com/results/16/nh/Feb13_Kingma_set1.shtml"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": "(POSTPONED)"
 	}, {
 		"id": "5",
 		"date": "February 18, 2017",
@@ -160,7 +165,8 @@
 			"url": "http://www.coolrunning.com/results/15/nh/Feb21_Exeter_set1.shtml"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""
 	}, {
 		"id": "6",
 		"date": "February 26, 2017",
@@ -172,7 +178,8 @@
 
 		],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""
 	}, {
 		"id": "7",
 		"date": "March 5, 2017",
@@ -200,7 +207,8 @@
 			"url": "http://www.coolrunning.com/results/15/nh/Mar7_NHNort_set1.shtml"
 		}],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""
 	}, {
 		"id": "8",
 		"date": "March 12, 2017",
@@ -212,7 +220,8 @@
 
 		],
 		"ussaQualifier": false,
-		"nsf": false
+		"nsf": false,
+		"status": ""
 	}]
 }
 
