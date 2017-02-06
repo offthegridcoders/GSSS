@@ -47,7 +47,7 @@
 		}],
 		"ussaQualifier": false,
 		"nsf": false,
-		"status": ""		
+		"status": ""
 	}, {
 		"id": "2",
 		"date": "January 29, 2017",
@@ -116,8 +116,28 @@
 		"nsf": false,
 		"status": "(CANCELLED)"
 	}, {
+		"id": "5",
+		"date": "February 18, 2017",
+		"title": "Exeter Snowshoe Hullabaloo",
+		"city": "Exeter",
+		"state": "NH",
+		"website": "http://www.acidoticracing.com/exeter-snowshoe-hullabaloo/",
+		"results": [{
+			"year": "2011",
+			"url": "http://www.coolrunning.com/results/11/nh/Feb5_Exeter_set1.shtml"
+		}, {
+			"year": "2014",
+			"url": "http://www.acidoticracing.com/viewResults.php?CurID=3"
+		}, {
+			"year": "2015",
+			"url": "http://www.coolrunning.com/results/15/nh/Feb21_Exeter_set1.shtml"
+		}],
+		"ussaQualifier": false,
+		"nsf": false,
+		"status": ""
+	}, {
 		"id": "4",
-		"date": "February 11, 2017",
+		"date": "February 25, 2017",
 		"title": "Kingman Farm Moonlight",
 		"city": "Madbury",
 		"state": "NH",
@@ -146,27 +166,7 @@
 		}],
 		"ussaQualifier": false,
 		"nsf": false,
-		"status": "(POSTPONED)"
-	}, {
-		"id": "5",
-		"date": "February 18, 2017",
-		"title": "Exeter Snowshoe Hullabaloo",
-		"city": "Exeter",
-		"state": "NH",
-		"website": "http://www.acidoticracing.com/exeter-snowshoe-hullabaloo/",
-		"results": [{
-			"year": "2011",
-			"url": "http://www.coolrunning.com/results/11/nh/Feb5_Exeter_set1.shtml"
-		}, {
-			"year": "2014",
-			"url": "http://www.acidoticracing.com/viewResults.php?CurID=3"
-		}, {
-			"year": "2015",
-			"url": "http://www.coolrunning.com/results/15/nh/Feb21_Exeter_set1.shtml"
-		}],
-		"ussaQualifier": false,
-		"nsf": false,
-		"status": ""
+		"status": "-- NEW DATE --"
 	}, {
 		"id": "6",
 		"date": "February 26, 2017",
@@ -224,4 +224,3 @@
 		"status": ""
 	}]
 }
-
