@@ -2,111 +2,111 @@
   "teams": [
     {
     		"name": "SIX03",
-    		"points": "918.76"
+    		"points": "1356.33"
     	}, {
     		"name": "acidotic Racing",
-    		"points": "845.21"
+    		"points": "1292.21"
     	}, {
     		"name": "Sweetie Pies",
-    		"points": "673.41"
+    		"points": "896.79"
     	}
   ],
   "openMen": [
     {
-      "name": "Brandon Newbould",
-          "points": "189.00"
-        },
-        {
-          "name": "Ed Sheldon",
-          "points": "180.87"
+      "name": "Ed Sheldon",
+          "points": "276.20"
         },
         {
           "name": "Phil Erwin",
-          "points": "175.48"
+          "points": "271.47"
+        },
+        {
+          "name": "Jeff Litchfield",
+          "points": "260.52"
         }
   ],
   "openWomen": [
     {
       "name": "Leslie O'Dell",
-      "points": "200.00"
+      "points": "300.00"
     },
     {
       "name": "Sarah Canney",
-      "points": "187.40"
+      "points": "280.33"
     },
     {
-      "name": "Maureen Gillespie",
-      "points": "177.01"
+      "name": "Holly Blais",
+      "points": "260.08"
     }
   ],
   "mastersMen": [
     {
       "name": "Phil Erwin",
-      "points": "175.48"
+      "points": "271.47"
+    },
+    {
+      "name": "Scott Mitchell",
+      "points": "175.78"
     },
     {
       "name": "Jonathan Miller",
       "points": "166.27"
-    },
-    {
-      "name": "Tony Bargado",
-      "points": "158.43"
     }
   ],
   "mastersWomen": [
     {
       "name": "Leslie O'Dell",
-      "points": "200.00"
-    },
-    {
-      "name": "Molly McHugh",
-      "points": "135.26"
+      "points": "300.00"
     },
     {
       "name": "Heidi Dyer",
-      "points": "133.42"
+      "points": "210.36"
+    },
+    {
+      "name": "Kim Bisson",
+      "points": "180.74"
     }
   ],
   "seniorsMen": [
     {
       "name": "Ed Sheldon",
-      "points": "180.87"
+      "points": "276.20"
     },
     {
       "name": "Jeff Litchfield",
-      "points": "169.85"
+      "points": "260.52"
     },
     {
-      "name": "Peter Keeney",
-      "points": "159.35"
+      "name": "James Downey",
+      "points": "223.34"
     }
   ],
   "seniorsWomen": [
     {
       "name": "Sue Williamson",
-      "points": "136.75"
+      "points": "215.84"
     },
     {
       "name": "Deborah Towle",
-      "points": "135.01"
+      "points": "214.32"
     },
     {
       "name": "Sally Gallagher",
-      "points": "130.98"
+      "points": "200.96"
     }
   ],
   "veteransMen": [
     {
-      "name": "Paul Bazanchuck",
-      "points": "162.71"
-    },
-    {
       "name": "Walter Fortier",
-      "points": "145.08"
+      "points": "223.14"
     },
     {
-      "name": "Tom Walton",
-      "points": "142.64"
+      "name": "Paul Funch",
+      "points": "217.73"
+    },
+    {
+      "name": "Brian Gallagher",
+      "points": "183.00"
     }
   ],
   
@@ -120,15 +120,15 @@
       "points": "133.24"
     },
     {
-      "name": "Sinthy Kounlasa",
-      "points": "68.96"
+      "name": "Diane Levesque",
+      "points": "101.51"
     }
   ]
   ,
     "superVeteransMen": [
       {
         "name": "Gary Reuter",
-        "points": "114.14"
+        "points": "176.51"
       },
       {
         "name": "",
